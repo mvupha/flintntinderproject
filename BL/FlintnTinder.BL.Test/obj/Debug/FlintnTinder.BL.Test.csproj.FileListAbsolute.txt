@@ -1,0 +1,10 @@
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\bin\Debug\FlintnTinder.BL.Test.dll
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\bin\Debug\FlintnTinder.BL.Test.pdb
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\bin\Debug\FlintnTinder.BL.dll
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\bin\Debug\FlintnTinder.BL.pdb
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\obj\Debug\FlintnTinder.BL.Test.csprojResolveAssemblyReference.cache
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\obj\Debug\FlintnTinder.BL.Test.dll
+C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL.Test\obj\Debug\FlintnTinder.BL.Test.pdb
