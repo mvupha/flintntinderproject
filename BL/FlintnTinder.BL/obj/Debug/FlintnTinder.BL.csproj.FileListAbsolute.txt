@@ -11,3 +11,5 @@ C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\bin\Deb
 C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\obj\Debug\FlintnTinder.BL.dll
 C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\obj\Debug\FlintnTinder.BL.pdb
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\obj\Debug\FlintnTinder.BL.csprojResolveAssemblyReference.cache
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\bin\Debug\Objects\jobs.json

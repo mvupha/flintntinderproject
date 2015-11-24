@@ -53,7 +53,9 @@
     <Compile Include="Types\StatusType.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Objects\jobs.json" />
+    <Content Include="Objects\jobs.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

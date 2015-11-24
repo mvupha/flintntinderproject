@@ -142,3 +142,6 @@ C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\UI\FlintnTinder\bin\System
 C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\UI\FlintnTinder\obj\Debug\FlintnTinder.csprojResolveAssemblyReference.cache
 C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\UI\FlintnTinder\obj\Debug\FlintnTinder.dll
 C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\UI\FlintnTinder\obj\Debug\FlintnTinder.pdb
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\UI\FlintnTinder\bin\Objects\jobs.json
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\UI\FlintnTinder\obj\Debug\FlintnTinder.Properties.Resources.resources
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\UI\FlintnTinder\obj\Debug\FlintnTinder.csproj.GenerateResource.Cache

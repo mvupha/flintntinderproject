@@ -14,8 +14,9 @@ namespace FlintnTinder.BL.Provider
     {
         public string GetJobs()
         {
+            string path = Path.Combine(Environment.CurrentDirectory, @"C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\Objects\jobs.json");
             string job;
-            using (StreamReader reader = new StreamReader(@"C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\Objects\jobs.json"))
+            using (StreamReader reader = new StreamReader(path))
             {
                 job = reader.ReadToEnd();
                 Jobs jobs = JsonConvert.DeserializeObject<Jobs>(job);

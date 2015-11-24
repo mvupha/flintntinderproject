@@ -1,5 +1,4 @@
-﻿using FlintnTinder.BL.Entities;
-using FlintnTinder.BL.Provider;
+﻿using FlintnTinder.BL.Provider;
 using FlintnTinder.Models;
 using FlintnTinder.Models.Jobs;
 using System;
@@ -21,7 +20,6 @@ namespace FlintnTinder.Controllers
             TestControllerBase testControllerBase = new TestControllerBase();
             JobsGridModel jobsGridModel = new JobsGridModel();
             int begin = testControllerBase.SetupGridParams(model);
-            provider.GetJobs();
             var filteredQuery = provider.PostJobs().Select(a => new JobsGridModel()
             {
                 Client = jobsGridModel.Client,
