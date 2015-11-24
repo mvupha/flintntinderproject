@@ -10,8 +10,15 @@ namespace FlintnTinder.BL.Test
         [TestMethod]
         public void GetJobs()
         {
-            JobsProvider provider = new JobsProvider();
+            IJobProvider provider = new JobsProvider();
             string getAllJobs = provider.GetJobs();
+        }
+
+        [TestMethod]
+        public void PostJobs()
+        {
+            IJobProvider provider = new JobsProvider();
+            string postAllJobs = provider.PostJobs();
         }
     }
 }

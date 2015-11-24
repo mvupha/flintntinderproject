@@ -1,0 +1,65 @@
+﻿<h2>Jobs</h2>
+<div class="row top-buffer">
+    <input type="button" ng-click="back()" value="Back" class="btn btn-default" />
+</div>
+<div class="row">
+    <div class="col-sm-3">
+        <div class="input-group">
+            <input type="search" class="form-control" placeholder="Search for..." ng-model="searchFor" />
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="button" ng-click="search()">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row top-buffer table-responsive">
+    <table class="table table-bordered table-striped">
+        <thread>
+            <tr>
+                <th>
+                    <a href="#" ng-click="sort('client')">Client</a>
+                    <i ng-class="{'glyphicon glyphicon-chevron-up':sortKeyOrder.order=='ASC' && sortKeyOrder.key=='client'}"></i>
+                    <i ng-class="{'glyphicon glyphicon-chevron-down':sortKeyOrder.order=='DESC' && sortKeyOrder.key=='client'}"></i>
+                </th>
+
+                <th>
+                    <a href="#" ng-click="sort('duedate')">Due Date</a>
+                    <i ng-class="{'glyphicon glyphicon-chevron-up':sortKeyOrder.order=='ASC' && sortKeyOrder.key=='duedate'}"></i>
+                    <i ng-class="{'glyphicon glyphicon-chevron-down':sortKeyOrder.order=='DESC' && sortKeyOrder.key=='duedate'}"></i>
+                </th>
+
+                <th>
+                    <a href="#" ng-click="sort('jobname')">Job Name</a>
+                    <i ng-class="{'glyphicon glyphicon-chevron-up':sortKeyOrder.order=='ASC' && sortKeyOrder.key=='jobname'}"></i>
+                    <i ng-class="{'glyphicon glyphicon-chevron-down':sortKeyOrder.order=='DESC' && sortKeyOrder.key=='jobname'}"></i>
+                </th>
+                
+                <th>
+                    <a href="#" ng-click="sort('jobnumber')">Job Number</a>
+                    <i ng-class="{'glyphicon glyphicon-chevron-up':sortKeyOrder.order=='ASC' && sortKeyOrder.key=='jobnumber'}"></i>
+                    <i ng-class="{'glyphicon glyphicon-chevron-down':sortKeyOrder.order=='DESC' && sortKeyOrder.key=='jobnumber'}"></i>
+                </th>
+                <th>
+                    <a href="#" ng-click="sort('status')">Status</a>
+                    <i ng-class="{'glyphicon glyphicon-chevron-up':sortKeyOrder.order=='ASC' && sortKeyOrder.key=='status'}"></i>
+                    <i ng-class="{'glyphicon glyphicon-chevron-down':sortKeyOrder.order=='DESC' && sortKeyOrder.key=='status'}"></i>
+                </th>
+                
+                <th class="col-sm-3 control-label">Action</th>
+            </tr>
+        </thread>
+        <tbody data-ng-repeat="i in populateGrid">
+            <tr>
+                <td>{{i.client}}</td>
+                <td>{{i.duedate}}</td>
+                <td>{{i.jobname}}</td>
+                <td>{{i.jobnumber}}</td>
+                <td>{{i.status}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <span data-pagination data-total-items="totalItems" data-ng-model="currentPage" data-max-size="numberOfPageButtons" class=" pagination-sm" data-boundary-links="true" data-rotate="false" data-ng-change="pageChanged()" data-items-per-page="recordsPerPage"></span>
+</div>

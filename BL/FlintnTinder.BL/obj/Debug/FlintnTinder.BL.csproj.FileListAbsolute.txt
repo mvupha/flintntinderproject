@@ -5,3 +5,9 @@ C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTi
 C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL\obj\Debug\FlintnTinder.BL.csprojResolveAssemblyReference.cache
 C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL\obj\Debug\FlintnTinder.BL.dll
 C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL\obj\Debug\FlintnTinder.BL.pdb
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\bin\Debug\FlintnTinder.BL.dll
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\bin\Debug\FlintnTinder.BL.pdb
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\obj\Debug\FlintnTinder.BL.dll
+C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\obj\Debug\FlintnTinder.BL.pdb

@@ -10,16 +10,24 @@ using Newtonsoft.Json;
 
 namespace FlintnTinder.BL.Provider
 {
-    public class JobsProvider
+    public class JobsProvider : IJobProvider
     {
         public string GetJobs()
         {
-            using (StreamReader reader = new StreamReader(@"C:\Users\Lawrence\Documents\Visual Studio 2015\Projects\FlintnTInder\BL\FlintnTinder.BL\Objects\jobs.json"))
+            string job;
+            using (StreamReader reader = new StreamReader(@"C:\Users\Lawrence\Documents\RepoProjects\FlintnTInder\BL\FlintnTinder.BL\Objects\jobs.json"))
             {
-                string job = reader.ReadToEnd();
+                job = reader.ReadToEnd();
                 Jobs jobs = JsonConvert.DeserializeObject<Jobs>(job);
-                return job;
             }
+            return job;
         }
+
+        public string PostJobs()
+        {
+            string json = JsonConvert.SerializeObject(GetJobs(), Formatting.Indented);
+            return json;
+        }
+
     }
 }
